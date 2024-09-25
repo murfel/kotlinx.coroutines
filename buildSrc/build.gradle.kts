@@ -65,5 +65,4 @@ dependencies {
     }
     implementation("org.jetbrains.kotlinx:kotlinx-benchmark-plugin:0.4.9")
     implementation("org.jetbrains.kotlinx:kotlinx-knit:${version("knit")}")
-    implementation("org.jetbrains.kotlinx:atomicfu-gradle-plugin:${version("atomicfu")}")
 }
