@@ -53,10 +53,11 @@ plugins {
 
 repositories {
     if (extra["using_snapshot_version"] == true) {
-        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
         maven("https://redirector.kotlinlang.org/maven/dev")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
     }
     mavenLocal()
+    maven("https://redirector.kotlinlang.org/maven/dev")
     mavenCentral()
 }
 
